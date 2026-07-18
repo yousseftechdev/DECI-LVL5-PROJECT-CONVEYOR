@@ -1,7 +1,9 @@
-# Conveyor Control System - README
+# Conveyor Control System
 
 ## What this is
 A conveyor belt controller built on the ATmega32, using a layered MCAL/HAL/APP structure. It handles start/stop, variable speed via a potentiometer, object counting via an interrupt, and an emergency stop that locks the system until reset.
+
+![](Circuit-screenshot.png)
 
 ## Folder structure
 MCAL - GPIO, EXTI, Timer, PWM, ADC, UART (direct register-level drivers)
